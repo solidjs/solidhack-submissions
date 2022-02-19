@@ -4,6 +4,9 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
-      - run: cat ${{github.event.pull_request}}
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+      - run: cat README.md
       - uses: actions/checkout@v2
       - run: cat README.md
