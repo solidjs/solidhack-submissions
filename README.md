@@ -2,7 +2,9 @@
   <img width="100%" src="https://github.com/solidjs/solidhack-submissions/blob/main/banner.png?raw=true" alt="SolidHack Submissions">
 </p>
 
-Welcome to **SolidHack**! The following is a list of projects seeking entry to SolidHack 2022. Before submitting your project be sure to thoroughly read the Rules and Regulations available at [https://hack.solidjs.com/rules](https://hack.solidjs.com/rules) as well as the complete instructions for preparing your repository for submissions at [https://hack.solidjs.com/submit](https://hack.solidjs.com/submit).
+Welcome to **SolidHack**! The following is a list of projects accepted into SolidHack 2022.
+
+Before submitting your project be sure to thoroughly read the [Rules and Regulations](https://hack.solidjs.com/rules) as well as the complete instructions for [preparing your repository for submissions](https://hack.solidjs.com/submit). For additional visit [hack.solidjs.com](https://hack.solidjs.com) or join our [Discord](https://discord.com/invite/solidjs) #solidhack channel to have any questions answered.
 
 ## Submission Process
 
