@@ -6,7 +6,9 @@ Welcome to **SolidHack**! The following is a list of projects seeking entry to S
 
 ## Submission Process
 
-When you're ready to submit your project, fork this repository and add your submission to one of the categories below then submit a Pull Request back to this repostiory. PRs will be merged once projects have been verified for meeting the submission rules and eligibility criteria.
+When you're ready to submit your project, fork this repository and add your submission to one of the categories below then submit a Pull Request back to this repostiory. PRs will be merged once projects have been verified for meeting the submission rules and eligibility criteria. If there are issues with your PR a SolidHack representative will notify if not your PR will be merged.
+
+Upon acceptance into the submission list your project will be deployed on the SolidHack website with a landing page and voting action. Submissions close and voting begins at the same time. No further submissions will be merged after April 7th @ 23:59 (GMT-5).
 
 # Best App Award
 
