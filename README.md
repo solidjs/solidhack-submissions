@@ -4,7 +4,7 @@
 
 Welcome to **SolidHack**! The following is a list of projects accepted into SolidHack 2022.
 
-Before submitting your project be sure to read the [Rules and Regulations](https://hack.solidjs.com/rules) as well as the complete instructions for [preparing your repository for submissions](https://hack.solidjs.com/submit). For additional information, check [hack.solidjs.com](https://hack.solidjs.com) and join our [Discord](https://discord.com/invite/solidjs's  #solidhack channel. If you have trouble submitting, please reach out over Discord!
+Before submitting your project be sure to read the [Rules and Regulations](https://hack.solidjs.com/rules) as well as the complete instructions for [preparing your repository for submissions](https://hack.solidjs.com/submit). For additional information, check [hack.solidjs.com](https://hack.solidjs.com) and join our [Discord](https://discord.com/invite/solidjs's) #solidhack channel. If you have trouble submitting, please reach out over Discord!
 
 ## Submission Process
 
