@@ -1,4 +1,4 @@
-# {{ name_of_lib }}
+# solid-recoil
 
 {{ desc_of_lib }}
 
@@ -7,11 +7,11 @@
 Install it:
 
 ```bash
-pnpm add {{ me }}/{{ name_of_lib }}
+pnpm add {{ me }}/solid-recoil
 ```
 
 Use it:
 
 ```tsx
-import {{ name_of_lib }} from '{{ name_of_lib }}'
+import solid-recoil from 'solid-recoil'
 ```
