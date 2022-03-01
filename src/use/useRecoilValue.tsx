@@ -1,4 +1,4 @@
-import { createSignal } from 'solid-js';
+import { createSignal, onCleanup } from 'solid-js';
 import { atom } from '..';
 
 export function useRecoilValue(atom: atom): () => any {
@@ -9,5 +9,8 @@ export function useRecoilValue(atom: atom): () => any {
     setValue(atom.value);
   });
 
+  onCleanup(() => {
+    document.removeEventListener(`recoil_changeState_${atom.props.key}`, (_) => {});
+  });
   return value;
 }

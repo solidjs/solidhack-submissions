@@ -1,4 +1,4 @@
-import { createSignal } from 'solid-js';
+import { createSignal, onCleanup } from 'solid-js';
 import { atom } from '..';
 
 type function_promise_type = () => Promise<any>;
@@ -27,6 +27,7 @@ export function useRecoilLoadingValue(atom: atom, f: function_promise_type): () 
     });
 
   let body = document.getElementsByTagName('body')[0];
+
   body.addEventListener(`recoil_changeState_${atom.props.key}`, (ev) => {
     setValue({
       loading: 'hasValue',
@@ -34,5 +35,8 @@ export function useRecoilLoadingValue(atom: atom, f: function_promise_type): () 
     });
   });
 
+  onCleanup(() => {
+    document.removeEventListener(`recoil_changeState_${atom.props.key}`, (_) => {});
+  });
   return value;
 }

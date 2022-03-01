@@ -1,4 +1,4 @@
-import { createSignal } from 'solid-js';
+import { createMemo, createSignal, onCleanup } from 'solid-js';
 import { atom } from '..';
 
 export function useRecoilState(atom: atom): [() => any, (value: any) => void] {
@@ -13,6 +13,10 @@ export function useRecoilState(atom: atom): [() => any, (value: any) => void] {
   const setter = (newValue: any) => {
     atom.set(newValue);
   };
+
+  onCleanup(() => {
+    document.removeEventListener(`recoil_changeState_${atom.props.key}`, (_) => {});
+  });
 
   return [value, setter];
 }

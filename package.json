@@ -1,8 +1,9 @@
 {
   "version": "0.0.0",
-  "name": "solid-recoil",
-  "description": "{{ desc_of_lib }}",
+  "name": "@dimensionhq/solid-recoil",
+  "description": "Solid-JS but for Recoil",
   "type": "module",
+  "private": false,
   "files": [
     "dist"
   ],
@@ -21,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/{{ me }}/index.git"
+    "url": "github.com/dimensionhq/solid-recoil"
   },
   "keywords": [],
   "author": "{{ me }}",
   "license": "MIT",
-  "homepage": "https://github.com/{{ me }}/index#readme",
+  "homepage": "github.com/dimensionhq/solid-recoil",
   "dependencies": {
     "solid-js": "^1.1.7"
   },
