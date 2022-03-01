@@ -7,7 +7,6 @@ export function useRecoilState(atom: atom): [() => any, (value: any) => void] {
 
   body.addEventListener(`recoil_changeState_${atom.props.key}`, (ev) => {
     setValue(atom.value);
-    console.log(atom.value);
   });
 
   const setter = (newValue: any) => {

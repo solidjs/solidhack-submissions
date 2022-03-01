@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0",
+  "version": "0.0.1",
   "name": "@dimensionhq/solid-recoil",
   "description": "Solid-JS but for Recoil",
   "type": "module",
