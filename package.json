@@ -1,5 +1,8 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "badges": [
+    "http://img.shields.io/badge/version-0.0.2-blue.svg"
+  ],
   "name": "@dimensionhq/solid-recoil",
   "description": "Solid-JS but for Recoil",
   "type": "module",
@@ -24,8 +27,13 @@
     "type": "git",
     "url": "github.com/dimensionhq/solid-recoil"
   },
-  "keywords": [],
-  "author": "{{ me }}",
+  "keywords": [
+    "solid-js",
+    "state-management",
+    "recoil",
+    "recoil-js"
+  ],
+  "author": "DimensionHQ <team@dimension.dev>",
   "license": "MIT",
   "homepage": "github.com/dimensionhq/solid-recoil",
   "dependencies": {
