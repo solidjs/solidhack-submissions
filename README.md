@@ -1,5 +1,6 @@
 # Solid Recoil
-Global state management in Solid-JS made easy
+The state management for Solid.
+
 ## Getting started is easy!
 ```bash
 # npm
