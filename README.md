@@ -1,5 +1,5 @@
-# Solid Recoil
-The state management for Solid.
+# Kick
+State management for Solid.
 
 ## Getting started is easy!
 ```bash
