@@ -1,5 +1,5 @@
-# Kick
-State management for Solid.
+# Blitz
+Fast, simple and efficient state management for Solid.
 
 ## Getting started is easy!
 ```bash
@@ -33,7 +33,7 @@ const todo = useRecoilValue(todoState)
 
 const f = async () => {
     await sleep(2000);
-    return 'asd';
+    return 'text here';
 };
 
 // for updating state after an async function has completed
