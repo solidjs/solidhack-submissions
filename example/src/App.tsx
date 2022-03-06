@@ -1,30 +1,25 @@
-import { atom } from '@dimensionhq/blitz';
-import { createSignal, For } from 'solid-js';
-import Nice from './Nice';
-import { userAtomState } from './store';
+import { Component, For } from 'solid-js';
+import { selector, createBlitzState } from '@dimensionhq/blitz';
+import { todoListState } from './store';
 
-function App() {
-  const [v, setV] = createSignal('');
-  userAtomState.subscribe((val: any) => {
-    setV(val);
+const App: Component = () => {
+  let [hello, setHello] = createBlitzState<string>(todoListState);
+  const [state, setState, unsubscribe] = selector({
+    atom: todoListState,
+    get: (value) => {
+      return value + 'lets gooo';
+    },
   });
 
-  let i = [];
-  for (let index = 0; index < 3000; index++) {
-    i.push(index);
-  }
   return (
-    <div class="App">
-      <input
-        type="text"
-        value={v()}
-        onInput={(e) => userAtomState.setValue(e.currentTarget.value)}
-      />
+    <div>
+      <input value={hello()} onInput={(e) => setHello(e.currentTarget.value)} />
       <br />
-      {v()}
-      <For each={i}>{(i) => <Nice />}</For>
+      value: {hello()}
+      <br />
+      length: {state()}
     </div>
   );
-}
+};
 
 export default App;
