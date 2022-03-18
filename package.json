@@ -31,7 +31,9 @@
   "license": "MIT",
   "homepage": "https://github.com/{{ me }}/@dimensionhq/blitz#readme",
   "dependencies": {
-    "solid-js": "^1.1.7"
+    "@types/workerpool": "^6.1.0",
+    "solid-js": "^1.1.7",
+    "workerpool": "^6.2.0"
   },
   "devDependencies": {
     "@types/async": "^3.2.12",

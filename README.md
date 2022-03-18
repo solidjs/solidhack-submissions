@@ -1,17 +1,27 @@
-# @dimensionhq/blitz
-
-{{ desc_of_lib }}
-
-## Quick start
-
-Install it:
+# Blitz
+Fast, simple and efficient state management for Solid.
 
 ```bash
-pnpm add {{ me }}/@dimensionhq/blitz
+## Getting started is easy!
+# npm
+npm i @dimensionhq/blitz
+
+# yarn
+yarn add @dimensionhq/blitz
+
+# pnpm
+pnpm i @dimensionhq/blitz
 ```
 
-Use it:
 
-```tsx
-import @dimensionhq/blitz from '@dimensionhq/blitz'
+## Atoms
+Think of atoms as storage containers each container has its own definite set of properties (key, default etc).
+
+```js
+import {atom, useRecoilState} from "@dimensionhq/solid-recoil"
+
+const todoState = atom([])
+
+// for setting todos you can use useRecoilState
+const [todo, setTodo] = useBlitzState(todoState)
 ```

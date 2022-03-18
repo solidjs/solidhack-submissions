@@ -4,11 +4,11 @@ import { IAtomReturnValue } from '..';
 export const createBlitzState = <T = any>(
   store: IAtomReturnValue,
 ): [Accessor<T>, (newVal: any) => void, () => void] => {
-  const [state, setState] = createSignal<T>(store.getValue());
+  const [state, setState] = createSignal<T>(store.get());
 
   const unsubscribe = store.subscribe(setState);
 
   onCleanup(() => unsubscribe());
 
-  return [state, store.setValue, unsubscribe];
+  return [state, store.set, unsubscribe];
 };

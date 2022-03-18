@@ -1,15 +1,17 @@
 import { Component, For } from 'solid-js';
 import { selector, createBlitzState } from '@dimensionhq/blitz';
 import { todoListState } from './store';
+const I: Component = () => {
+  let [hello, setHello] = createBlitzState<string>(todoListState);
 
+  return <div>value: {hello()}</div>;
+};
 const App: Component = () => {
   let [hello, setHello] = createBlitzState<string>(todoListState);
-  const [state, setState, unsubscribe] = selector({
-    atom: todoListState,
-    get: (value) => {
-      return value + 'lets gooo';
-    },
-  });
+  let index = [];
+  for (let i = 0; i < 5000; i++) {
+    index.push(i);
+  }
 
   return (
     <div>
@@ -17,7 +19,7 @@ const App: Component = () => {
       <br />
       value: {hello()}
       <br />
-      length: {state()}
+      <For each={index}>{(i) => <I />}</For>
     </div>
   );
 };
