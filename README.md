@@ -18,7 +18,7 @@ pnpm i @dimensionhq/blitz
 Think of atoms as storage containers each container has its own definite set of properties (key, default etc).
 
 ```js
-import {atom, useBlitzState} from "@dimensionhq/solid-recoil"
+import {atom, useBlitzState} from "@dimensionhq/blitz"
 
 const todoState = atom([])
 
