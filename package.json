@@ -1,7 +1,7 @@
 {
   "version": "0.0.0",
   "name": "@dimensionhq/blitz",
-  "description": "{{ desc_of_lib }}",
+  "description": "Fast, Simple and efficient state management for SolidJS",
   "type": "module",
   "files": [
     "dist"
@@ -24,20 +24,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/{{ me }}/@dimensionhq/blitz.git"
+    "url": "https://github.com/dimensionhq/blitz.git"
   },
-  "keywords": [],
-  "author": "{{ me }}",
+  "keywords": [
+    "Blitz",
+    "SolidJS",
+    "State Management"
+  ],
+  "author": "DimensionHQ",
   "license": "MIT",
-  "homepage": "https://github.com/{{ me }}/@dimensionhq/blitz#readme",
+  "homepage": "github.com/dimensionhq/blitz#readme",
   "dependencies": {
-    "@types/workerpool": "^6.1.0",
-    "solid-js": "^1.1.7",
-    "workerpool": "^6.2.0"
+    "solid-js": "^1.1.7"
   },
   "devDependencies": {
     "@types/async": "^3.2.12",
-    "async": "^3.2.3",
     "rollup": "^2.58.0",
     "rollup-plugin-gzip": "^3.0.0",
     "rollup-preset-solid": "^1.0.1",
