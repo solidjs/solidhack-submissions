@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0",
+  "version": "0.0.2",
   "name": "@dimensionhq/blitz",
   "description": "Fast, Simple and efficient state management for SolidJS",
   "type": "module",

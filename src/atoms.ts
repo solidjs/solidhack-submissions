@@ -31,7 +31,6 @@ export function atom<T = any>(initialValue: T): IAtomReturnValue<T> {
       let isSubscribed = true;
       // nextListeners.push(listener);
       pubsub.subscribe('atom', listener);
-      console.log(pubsub);
       return function unsubscribe() {
         if (!isSubscribed) {
           return;
