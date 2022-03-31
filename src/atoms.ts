@@ -5,31 +5,31 @@ export interface IAtomReturnValue<T = any> {
   subscribe(listener: any): () => void;
   get(): T;
   set(newVal: any): void;
+  reset(): void;
 }
 
 export function atom<T = any>(initialValue: T): IAtomReturnValue<T> {
   let currentListeners: string | any[];
   let nextListeners: any[] = [];
-
+  let currentValue: T = initialValue;
   let pubsub = new PubSub();
   let store = {
+    reset() {
+      currentValue = initialValue;
+
+      store.notify(currentValue);
+      pubsub.publish('atom', currentValue as any);
+    },
     notify(changedVal: any) {
       currentListeners = nextListeners;
 
       currentListeners.forEach((val) => {
         val(changedVal);
       });
-      // currentListeners.forEach((fn) => {
-      //   fn(changedVal);
-      // });
     },
 
     subscribe(listener: any) {
-      // if (typeof listener !== 'function') {
-      //   throw new Error('Expected listener to be a function.');
-      // }
       let isSubscribed = true;
-      // nextListeners.push(listener);
       pubsub.subscribe('atom', listener);
       return function unsubscribe() {
         if (!isSubscribed) {
@@ -41,10 +41,11 @@ export function atom<T = any>(initialValue: T): IAtomReturnValue<T> {
     },
 
     get() {
-      return initialValue;
+      return currentValue;
     },
+
     set(newVal: any) {
-      initialValue = newVal;
+      currentValue = newVal;
       pubsub.publish('atom', newVal);
       store.notify(newVal);
     },

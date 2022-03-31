@@ -8,7 +8,5 @@ export const createBlitzState = <T = any>(
 
   const unsubscribe = store.subscribe(setState);
 
-  onCleanup(() => unsubscribe());
-
   return [state, store.set, unsubscribe];
 };
