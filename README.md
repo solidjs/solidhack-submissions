@@ -20,7 +20,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 
 ### Best Ecosystem Utility Award
 
-- [Example Ecosystem Project](https://github.com/solidjs/solidhack-submissions)
+- [Melon-Solid](https://github.com/L1lith/Melon-Solid)
 
 ### Best Student Project Award
 
