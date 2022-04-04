@@ -1,7 +1,9 @@
 # Blitz
+
 Fast, simple and efficient state management for Solid.
 
 ## Getting started is easy!
+
 ```bash
 # npm
 npm i @dimensionhq/solid-recoil
@@ -14,13 +16,14 @@ pnpm i @dimensionhq/solid-recoil
 ```
 
 ## Atoms
+
 Think of atoms as storage containers each container has its own definite set of properties (key, default etc).
 
 ```js
 import {atom, useRecoilState, useRecoilValue, useRecoilLoadingValue} from "@dimensionhq/solid-recoil"
 
 const todoState = atom({
-    default: [], 
+    default: [],
     key: 'todoList';
 })
 
