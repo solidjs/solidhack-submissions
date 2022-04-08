@@ -8703,7 +8703,7 @@ const validatePr = async (pr) => {
   const validateDates = repoData => {
     let errors = []
 
-    if (dateToUtc(new Date(repoData.created_at)) < Date.UTC(2022, 0, 17)) {
+    if (dateToUtc(new Date(repoData.created_at)) < Date.UTC(2022, 0, 7)) {
       errors.push(`- Repo was created before 7 Jan 2022.`)
       found = true
     }
