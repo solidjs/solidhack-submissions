@@ -1,0 +1,17 @@
+name: validate-pr-on-comment
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  validate:
+    # This job only runs for pull request comments
+    name: PR comment
+    if: ${{ github.event.issue.pull_request }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/validate-pr-on-comment
+        with:
+            GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

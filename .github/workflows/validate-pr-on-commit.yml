@@ -1,0 +1,14 @@
+name: validate-pr-on-commit
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/validate-pr-on-commit
+        with:
+            GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
