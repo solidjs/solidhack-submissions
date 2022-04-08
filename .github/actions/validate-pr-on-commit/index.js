@@ -8601,29 +8601,34 @@ const actualAsyncEntry = async () => {
   )
 
   const validateFormattingAndGetUrl =  (exampleLine, diffLines) => {
-    let url
+    let url, addedLineTrimmed
 
-    if (
-      !diffLines.includes(exampleLine)
-      || isWhiteSpace(diffLines[diffLines.indexOf(exampleLine) + 1])
-    )
-      return { found: false }
+    if (diffLines.includes(`+${exampleLine}`))
+      addedLineTrimmed = diffLines[diffLines.indexOf(exampleLine) + 1].trim()
 
-    const nextLine = diffLines[diffLines.indexOf(exampleLine) + 1]
-    const lineAfterNext = diffLines[diffLines.indexOf(exampleLine) + 2]
-
-    if (
-      // In case of first commit
-      !nextLine.startsWith('+- ')
-      // In case of following commits
-      && !(nextLine.startsWith('-- ') && lineAfterNext.startsWith('+- '))
-    )
-      return { found: true, url, errors: [`- Invalid PR formatting - added line that doesn't start with \`- \`.`] }
-
-    const addedLine = nextLine.startsWith('+- ') ? nextLine : lineAfterNext
-    const addedLineTrimmed = addedLine
-      .substring(nextLine.startsWith('+- ') ? 3 : 4)
-      .trim()
+    else {
+      if (
+        !diffLines.includes(exampleLine)
+        || isWhiteSpace(diffLines[diffLines.indexOf(exampleLine) + 1])
+      )
+        return { found: false }
+  
+      const nextLine = diffLines[diffLines.indexOf(exampleLine) + 1]
+      const lineAfterNext = diffLines[diffLines.indexOf(exampleLine) + 2]
+  
+      if (
+        // In case of first commit
+        !nextLine.startsWith('+- ')
+        // In case of following commits
+        && !(nextLine.startsWith('-- ') && lineAfterNext.startsWith('+- '))
+      )
+        return { found: true, url, errors: [`- Invalid PR formatting - added line that doesn't start with \`- \`.`] }
+  
+      const addedLine = nextLine.startsWith('+- ') ? nextLine : lineAfterNext
+      addedLineTrimmed = addedLine
+        .substring(nextLine.startsWith('+- ') ? 3 : 4)
+        .trim()
+    }
 
     let errors = []
 
