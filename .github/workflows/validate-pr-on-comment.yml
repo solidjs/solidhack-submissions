@@ -7,6 +7,9 @@ on:
 jobs:
   validate:
     # This job only runs for pull request comments
+    permissions:
+      contents: write
+      pull-requests: write
     name: PR comment
     if: ${{ github.event.issue.pull_request }}
     runs-on: ubuntu-latest
