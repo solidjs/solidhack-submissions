@@ -8702,7 +8702,7 @@ const actualAsyncEntry = async () => {
       }
 
       // Validate that there are only 3 contributors
-      if (packageJson.contributors.length >= 3)
+      if (packageJson.contributors.length > 3)
         errors.push(`- Invalid \`package.json\` - there are more than 3 contributors.`)
     }
 
