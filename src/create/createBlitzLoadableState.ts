@@ -30,6 +30,7 @@ export const createBlitzLoadableState = <T = any>(
         value: res,
       };
       setState(data);
+      store.set(res);
     })
     .catch((reason) => {
       data = {
