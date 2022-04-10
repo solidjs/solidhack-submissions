@@ -1,0 +1,7 @@
+.home .solid-select-list {
+  @apply max-h-[50vh] overflow-y-auto;
+}
+
+.home .solid-select-option {
+  @apply font-normal text-2xl;
+}

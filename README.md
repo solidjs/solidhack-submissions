@@ -1,6 +1,6 @@
 # Blitz
 
-Fast, simple and efficient state management for Solid.
+Fast, simple, and efficient state management for Solid.
 
 ```bash
 ## Getting started is easy!
@@ -14,15 +14,8 @@ yarn add @dimensionhq/blitz
 pnpm i @dimensionhq/blitz
 ```
 
-## Atoms
+## QuickStart guide is in our [website](https://blitz.dimension.dev)
 
-Think of atoms as storage containers each container has its own definite set of properties (key, default etc).
+## Credits
 
-```js
-import { atom, useBlitzState } from '@dimensionhq/blitz';
-
-const todoState = atom([]);
-
-// for setting todos you can use useBlitzState
-const [todo, setTodo] = useBlitzState(todoState);
-```
+- Our website is cloned from [@thisbeyond/solid-select](https://github.com/thisbeyond/solid-select-site) consider staring them!
