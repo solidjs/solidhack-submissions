@@ -17,6 +17,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best App Award
 
 - [Example App Project](https://github.com/solidjs/solidhack-submissions)
+- [Encrypted Todos](https://github.com/Nojus0/encrypted-todo-list)
 
 ### Best Ecosystem Utility Award
 
@@ -25,4 +26,3 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best Student Project Award
 
 - [Example Student Project](https://github.com/solidjs/solidhack-submissions)
-- [Encrypted Todos](https://github.com/Nojus0/encrypted-todo-list)
