@@ -10,7 +10,7 @@ Before submitting your project be sure to read the [Rules and Regulations](https
 
 When you're ready to submit your project, [fork this repository and add](https://github.com/solidjs/solidhack-submissions/edit/main/README.md) your submission to one of the category lists in this README file below. **The addition to the list must be a link to the project's GitHub repository**. Then, submit a pull request back to this repostiory. PRs will be merged once projects have been verified for meeting the submission rules and eligibility criteria. If there are issues with your project, a SolidHack team member will notify you as soon as possible.
 
-After being accepted, your entry will be listed on the SolidHack website. Submissions close and voting begins at the same time - April 7th @ 23:59 (GMT-5). No submissions will be merged after that point.
+After being accepted, your entry will be listed on the SolidHack website. Submissions close and voting begins at the same time - April 11th @ 23:59 (GMT-5). No submissions will be merged after that point.
 
 ## Add your project to one of these lists:
 
