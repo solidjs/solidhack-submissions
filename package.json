@@ -6,9 +6,11 @@
   "files": [
     "dist"
   ],
+  "info": "Blitz is the modern state management library for solid, it combines the concept of svelte writables and the ease of use of recoiljs",
   "main": "dist/esm/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
+  "homepage": "https://blitz.dimension.dev",
   "exports": {
     ".": {
       "solid": "./dist/source/solid.jsx",
@@ -31,7 +33,8 @@
     "SolidJS",
     "State Management",
     "solidhack",
-    "best_ecosystem"
+    "best_ecosystem",
+    "best_student_project"
   ],
   "contributors": [
     {
