@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "name": "@dimensionhq/blitz",
   "description": "Fast, Simple and efficient state management for SolidJS",
   "type": "module",
@@ -29,7 +29,16 @@
   "keywords": [
     "Blitz",
     "SolidJS",
-    "State Management"
+    "State Management",
+    "solidhack",
+    "best_ecosystem"
+  ],
+  "contributors": [
+    {
+      "name": "Varun Potti",
+      "email": "potti.varun07@gmail.com",
+      "url": "https://github.com/varunpotti"
+    }
   ],
   "author": "DimensionHQ",
   "license": "MIT",
