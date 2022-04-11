@@ -17,6 +17,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best App Award
 
 - [Example App Project](https://github.com/solidjs/solidhack-submissions)
+- [MDB](https://github.com/AlidotSal/MDB)
 
 ### Best Ecosystem Utility Award
 
