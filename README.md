@@ -21,6 +21,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best Ecosystem Utility Award
 
 - [Example Ecosystem Project](https://github.com/solidjs/solidhack-submissions)
+- [`classy-solid`](https://github.com/lume/classy-solid) - Solid.js reactivity patterns for `class`es, and `class` components.
 
 ### Best Student Project Award
 
