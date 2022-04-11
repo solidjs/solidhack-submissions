@@ -25,3 +25,4 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best Student Project Award
 
 - [Example Student Project](https://github.com/solidjs/solidhack-submissions)
+- [Solid Table](https://github.com/mokshit06/solid-table)
