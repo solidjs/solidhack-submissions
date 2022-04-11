@@ -21,6 +21,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best Ecosystem Utility Award
 
 - [Example Ecosystem Project](https://github.com/solidjs/solidhack-submissions)
+- [Solid Reactor](https://github.com/yellowsink/solid-reactor)
 
 ### Best Student Project Award
 
