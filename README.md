@@ -17,11 +17,11 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best App Award
 
 - [Example App Project](https://github.com/solidjs/solidhack-submissions)
+- [LUMECraft `first-person-shooter`](https://github.com/LUMECraft/first-person-shooter)
 
 ### Best Ecosystem Utility Award
 
 - [Example Ecosystem Project](https://github.com/solidjs/solidhack-submissions)
-- [Solid Command Palette](https://github.com/itaditya/solid-command-palette)
 
 ### Best Student Project Award
 
