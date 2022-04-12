@@ -26,6 +26,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 - [MagicPixels](https://github.com/maxdavidwow/magic-pixels)
 - [Sudoku Solver](https://github.com/sadanandpai/sudoku-solver)
 - [Studyur](https://github.com/jherr/studyur)
+- [NFT Watch Party](https://github.com/conceptadev/nft-watch-party)
 
 ### Best Ecosystem Utility Award
 
