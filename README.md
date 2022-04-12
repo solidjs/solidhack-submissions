@@ -16,12 +16,4 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 
 ### Best App Award
 
-- [Example App Project](https://github.com/solidjs/solidhack-submissions)
-
-### Best Ecosystem Utility Award
-
-- [Example Ecosystem Project](https://github.com/solidjs/solidhack-submissions)
-
-### Best Student Project Award
-
-- [Example Student Project](https://github.com/solidjs/solidhack-submissions)
+- [Zutto](https://github.com/DanielHZhang/zutto)
