@@ -17,12 +17,19 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best App Award
 
 - [Example App Project](https://github.com/solidjs/solidhack-submissions)
+- [Sudoku Solver](https://github.com/sadanandpai/sudoku-solver)
+- [Studyur](https://github.com/jherr/studyur)
 
 ### Best Ecosystem Utility Award
 
 - [Example Ecosystem Project](https://github.com/solidjs/solidhack-submissions)
 - [Rad](https://github.com/solidsnail/rad)
+- [Solar Forms](https://github.com/kajetansw/solar-forms)
+- [Solid Proxies](https://github.com/Exelord/solid-proxies)
+- [Solid Services](https://github.com/exelord/solid-services)
+- [Solid Command Palette](https://github.com/itaditya/solid-command-palette)
 
 ### Best Student Project Award
 
 - [Example Student Project](https://github.com/solidjs/solidhack-submissions)
+- [Bloki app](https://github.com/MrFoxPro/bloki)
