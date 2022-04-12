@@ -18,6 +18,9 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 
 - [Zutto](https://github.com/DanielHZhang/zutto)
 - [Example App Project](https://github.com/solidjs/solidhack-submissions)
+- [Solid Data Grid](https://github.com/esveo/solid-data-grid-demo)
+- [first-person-shooter](https://github.com/LUMECraft/first-person-shooter)
+- [CodeImage](https://github.com/riccardoperra/codeimage)
 - [rehash.one](https://github.com/TheKatze/rehash)
 - [Encrypted Todos](https://github.com/Nojus0/encrypted-todo-list)
 - [Lasolsido](https://github.com/eguneys/solsido)
@@ -26,10 +29,18 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 - [Sudoku Solver](https://github.com/sadanandpai/sudoku-solver)
 - [Studyur](https://github.com/jherr/studyur)
 - [GDrive Tree](https://github.com/frozar/gdrive-tree)
+- [NFT Watch Party](https://github.com/conceptadev/nft-watch-party)
 
 ### Best Ecosystem Utility Award
 
 - [Example Ecosystem Project](https://github.com/solidjs/solidhack-submissions)
+- [Blitz](https://github.com/dimensionhq/blitz)
+- [Solid Native](https://github.com/tjjfvi/solid-native)
+- [Meteor support for SolidJS](https://github.com/edemaine/meteor-solid-hack)
+- [Solid-Spring](https://github.com/Aslemammad/solid-spring)
+- [SUID - Material UI](https://github.com/swordev/suid)
+- [solid-gstatem](https://github.com/gstatem/gstatem/tree/main/packages/solid-gstatem)
+- [Solid Reactor](https://github.com/yellowsink/solid-reactor)
 - [solid-map-gl](https://github.com/GIShub4/solid-map-gl)
 - [Compendium DevTools](https://github.com/CompendiumDevTools/library)
 - [Hope UI](https://github.com/fabien-ml/hope-ui)
@@ -52,5 +63,6 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best Student Project Award
 
 - [Example Student Project](https://github.com/solidjs/solidhack-submissions)
+- [Solid Table](https://github.com/mokshit06/solid-table)
 - [Hydrogen - Social media web app powered by SolidJS](https://github.com/harshmangalam/hydrogen-solidjs-client)
 - [Bloki app](https://github.com/MrFoxPro/bloki)
