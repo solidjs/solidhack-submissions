@@ -1,0 +1,12 @@
+name: 'validate-pr-on-comment'
+description: 'Validate PR on comment'
+author: 'Oren Elbaum'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub token'
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'index.js'

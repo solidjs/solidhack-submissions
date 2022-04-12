@@ -1,0 +1,12 @@
+name: 'validate-pr-on-commit'
+description: 'Validate PR on commit'
+author: 'Oren Elbaum'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub token'
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'index.js'
