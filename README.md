@@ -35,6 +35,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best Ecosystem Utility Award
 
 - [Example Ecosystem Project](https://github.com/solidjs/solidhack-submissions)
+- [solid-material-ui](https://github.com/skclusive/solid-material-ui)
 - [SolidGraph](https://github.com/verdavaine/solidgraph)
 - [Turbo Solid](https://github.com/StudioLambda/TurboSolid)
 - [Blitz](https://github.com/dimensionhq/blitz)
