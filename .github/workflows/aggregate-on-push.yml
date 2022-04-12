@@ -3,7 +3,7 @@ name: aggregate-on-push
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   aggregate:
