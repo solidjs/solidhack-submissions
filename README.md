@@ -10,7 +10,7 @@ Before submitting your project be sure to read the [Rules and Regulations](https
 
 When you're ready to submit your project, [fork this repository and add](https://github.com/solidjs/solidhack-submissions/edit/main/README.md) your submission to one of the category lists in this README file below. **The addition to the list must be a link to the project's GitHub repository**. Then, submit a pull request back to this repostiory. PRs will be merged once projects have been verified for meeting the submission rules and eligibility criteria. If there are issues with your project, a SolidHack team member will notify you as soon as possible.
 
-After being accepted, your entry will be listed on the SolidHack website. Submissions close and voting begins at the same time - April 11th @ 23:59 (GMT-5). No submissions will be merged after that point.
+After being accepted, your entry will be listed on the SolidHack website. Submissions close at April 11th @ 23:59 (GMT-5). No submissions will be merged after that point. Voting will begin within 24 hours and continue until May 2nd.
 
 ## Add your project to one of these lists:
 
@@ -18,6 +18,8 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 
 - [Zutto](https://github.com/DanielHZhang/zutto)
 - [Example App Project](https://github.com/solidjs/solidhack-submissions)
+- [getPRODUCTIVE](https://github.com/dylanclaywell/get-productive)
+- [MDB](https://github.com/AlidotSal/MDB)
 - [Solid Data Grid](https://github.com/esveo/solid-data-grid-demo)
 - [first-person-shooter](https://github.com/LUMECraft/first-person-shooter)
 - [CodeImage](https://github.com/riccardoperra/codeimage)
@@ -28,12 +30,16 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 - [MagicPixels](https://github.com/maxdavidwow/magic-pixels)
 - [Sudoku Solver](https://github.com/sadanandpai/sudoku-solver)
 - [Studyur](https://github.com/jherr/studyur)
+- [GDrive Tree](https://github.com/frozar/gdrive-tree)
 - [NFT Watch Party](https://github.com/conceptadev/nft-watch-party)
 
 ### Best Ecosystem Utility Award
 
 - [Example Ecosystem Project](https://github.com/solidjs/solidhack-submissions)
 - [react2solid](https://github.com/rrjanbiah/react2solid)
+- [solid-material-ui](https://github.com/skclusive/solid-material-ui)
+- [SolidGraph](https://github.com/verdavaine/solidgraph)
+- [Turbo Solid](https://github.com/StudioLambda/TurboSolid)
 - [Blitz](https://github.com/dimensionhq/blitz)
 - [Solid Native](https://github.com/tjjfvi/solid-native)
 - [Meteor support for SolidJS](https://github.com/edemaine/meteor-solid-hack)
@@ -63,6 +69,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best Student Project Award
 
 - [Example Student Project](https://github.com/solidjs/solidhack-submissions)
+- [Sailwind](https://github.com/lawrencecchen/sailwind)
 - [Solid Table](https://github.com/mokshit06/solid-table)
 - [Hydrogen - Social media web app powered by SolidJS](https://github.com/harshmangalam/hydrogen-solidjs-client)
 - [Bloki app](https://github.com/MrFoxPro/bloki)
