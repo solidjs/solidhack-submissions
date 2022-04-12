@@ -1,0 +1,15 @@
+name: aggregate-on-push
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/aggregate-on-push
+        with:
+            GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
