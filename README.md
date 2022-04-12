@@ -25,6 +25,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best Ecosystem Utility Award
 
 - [Example Ecosystem Project](https://github.com/solidjs/solidhack-submissions)
+- [solidjs-div-100vh](https://github.com/TiagoCavalcante/solidjs-div-100vh)
 - [Solid-Bedrock](https://github.com/Bedrock-Layouts/Solid-Bedrock)
 - [Melon-Solid](https://github.com/L1lith/Melon-Solid)
 - [solid-a11y](https://github.com/dairyisscary/solid-a11y)
