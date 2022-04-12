@@ -17,12 +17,28 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best App Award
 
 - [Example App Project](https://github.com/solidjs/solidhack-submissions)
+- [Kvissleik](https://github.com/siverv/kvissleik)
+- [MagicPixels](https://github.com/maxdavidwow/magic-pixels)
+- [Sudoku Solver](https://github.com/sadanandpai/sudoku-solver)
+- [Studyur](https://github.com/jherr/studyur)
 
 ### Best Ecosystem Utility Award
 
 - [Example Ecosystem Project](https://github.com/solidjs/solidhack-submissions)
 - [solidjs-div-100vh](https://github.com/TiagoCavalcante/solidjs-div-100vh)
+- [Solid-Bedrock](https://github.com/Bedrock-Layouts/Solid-Bedrock)
+- [Melon-Solid](https://github.com/L1lith/Melon-Solid)
+- [solid-a11y](https://github.com/dairyisscary/solid-a11y)
+- [SolidJS plugin for Preview.js](https://github.com/fwouts/previewjs-solid-plugin)
+- [Solid UI](https://github.com/pheggeseth/solid-ui)
+- [`classy-solid`](https://github.com/lume/classy-solid)
+- [Rad](https://github.com/solidsnail/rad)
+- [Solar Forms](https://github.com/kajetansw/solar-forms)
+- [Solid Proxies](https://github.com/Exelord/solid-proxies)
+- [Solid Services](https://github.com/exelord/solid-services)
+- [Solid Command Palette](https://github.com/itaditya/solid-command-palette)
 
 ### Best Student Project Award
 
 - [Example Student Project](https://github.com/solidjs/solidhack-submissions)
+- [Bloki app](https://github.com/MrFoxPro/bloki)
