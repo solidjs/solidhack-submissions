@@ -1,0 +1,8 @@
+name: Submission PR Review
+on: pull_request
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: cat README.md
