@@ -16,7 +16,6 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 
 ### Best App Award
 
-- [Example App Project](https://github.com/solidjs/solidhack-submissions)
 - [Zutto](https://github.com/DanielHZhang/zutto)
 - [solidjs-jobs](https://github.com/rrjanbiah/solidjs-jobs)
 - [Solid Storefront](https://github.com/zaiste/solid-storefront)
@@ -36,7 +35,6 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 
 ### Best Ecosystem Utility Award
 
-- [Example Ecosystem Project](https://github.com/solidjs/solidhack-submissions)
 - [FormGear](https://github.com/AdityaSetyadi/form-gear)
 - [react2solid](https://github.com/rrjanbiah/react2solid)
 - [solid-material-ui](https://github.com/skclusive/solid-material-ui)
@@ -72,7 +70,6 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 
 ### Best Student Project Award
 
-- [Example Student Project](https://github.com/solidjs/solidhack-submissions)
 - [Sailwind](https://github.com/lawrencecchen/sailwind)
 - [Solid Table](https://github.com/mokshit06/solid-table)
 - [Blitz](https://github.com/dimensionhq/blitz)
