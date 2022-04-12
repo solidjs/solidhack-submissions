@@ -18,6 +18,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 
 - [Zutto](https://github.com/DanielHZhang/zutto)
 - [Example App Project](https://github.com/solidjs/solidhack-submissions)
+- [Solid Data Grid](https://github.com/esveo/solid-data-grid-demo)
 - [first-person-shooter](https://github.com/LUMECraft/first-person-shooter)
 - [CodeImage](https://github.com/riccardoperra/codeimage)
 - [rehash.one](https://github.com/TheKatze/rehash)
