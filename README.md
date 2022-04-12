@@ -30,3 +30,4 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best Student Project Award
 
 - [Example Student Project](https://github.com/solidjs/solidhack-submissions)
+- [Bloki app](https://github.com/MrFoxPro/bloki)
