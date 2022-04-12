@@ -64,6 +64,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best Student Project Award
 
 - [Example Student Project](https://github.com/solidjs/solidhack-submissions)
+- [Sailwind](https://github.com/lawrencecchen/sailwind)
 - [Solid Table](https://github.com/mokshit06/solid-table)
 - [Hydrogen - Social media web app powered by SolidJS](https://github.com/harshmangalam/hydrogen-solidjs-client)
 - [Bloki app](https://github.com/MrFoxPro/bloki)
