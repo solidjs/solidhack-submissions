@@ -23,6 +23,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best Ecosystem Utility Award
 
 - [Example Ecosystem Project](https://github.com/solidjs/solidhack-submissions)
+- [Solar Forms](https://github.com/kajetansw/solar-forms)
 - [Solid Proxies](https://github.com/Exelord/solid-proxies)
 - [Solid Services](https://github.com/exelord/solid-services)
 - [Solid Command Palette](https://github.com/itaditya/solid-command-palette)
