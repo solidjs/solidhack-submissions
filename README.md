@@ -33,6 +33,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 
 - [Example Ecosystem Project](https://github.com/solidjs/solidhack-submissions)
 - [Blitz](https://github.com/dimensionhq/blitz)
+- [Solid Native](https://github.com/tjjfvi/solid-native)
 - [Meteor support for SolidJS](https://github.com/edemaine/meteor-solid-hack)
 - [Solid-Spring](https://github.com/Aslemammad/solid-spring)
 - [SUID - Material UI](https://github.com/swordev/suid)
