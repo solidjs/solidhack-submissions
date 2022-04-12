@@ -27,6 +27,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best Ecosystem Utility Award
 
 - [Example Ecosystem Project](https://github.com/solidjs/solidhack-submissions)
+- [solid-boundaries](https://github.com/everweij/solid-boundaries)
 - [RevKit UI](https://github.com/specialdoom/solid-rev-kit)
 - [solid-cached-resource](https://github.com/yonathan06/solid-cached-resource)
 - [solidjs-div-100vh](https://github.com/TiagoCavalcante/solidjs-div-100vh)
