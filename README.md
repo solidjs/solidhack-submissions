@@ -18,6 +18,8 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 
 - [Zutto](https://github.com/DanielHZhang/zutto)
 - [Example App Project](https://github.com/solidjs/solidhack-submissions)
+- [CodeImage](https://github.com/riccardoperra/codeimage)
+- [rehash.one](https://github.com/TheKatze/rehash)
 - [Encrypted Todos](https://github.com/Nojus0/encrypted-todo-list)
 - [Lasolsido](https://github.com/eguneys/solsido)
 - [Kvissleik](https://github.com/siverv/kvissleik)
@@ -29,6 +31,8 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best Ecosystem Utility Award
 
 - [Example Ecosystem Project](https://github.com/solidjs/solidhack-submissions)
+- [Solid Reactor](https://github.com/yellowsink/solid-reactor)
+- [solid-map-gl](https://github.com/GIShub4/solid-map-gl)
 - [Compendium DevTools](https://github.com/CompendiumDevTools/library)
 - [Hope UI](https://github.com/fabien-ml/hope-ui)
 - [solid-boundaries](https://github.com/everweij/solid-boundaries)
