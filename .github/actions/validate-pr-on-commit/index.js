@@ -8693,7 +8693,7 @@ const actualAsyncEntry = async () => {
       }
   
       // Validate that there are only 3 contributors
-      if (packageJson.contributors.length >= 3)
+      if (packageJson.contributors.length > 3)
         errors.push(`- Invalid \`package.json\` - there are more than 3 contributors.`)
     }
 
@@ -8711,7 +8711,7 @@ const actualAsyncEntry = async () => {
 
     if (
       dateToUtc(new Date(Date.now()))
-      > Date.UTC(2022, 3, 11, 23, 59, 59)
+      > Date.UTC(2022, 3, 12, 3, 59, 59)
     ) {
       errors.push(`- Submission was created after 7 Apr 2022.`)
       found = true
