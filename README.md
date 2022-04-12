@@ -16,6 +16,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 
 ### Best App Award
 
+- [Zutto](https://github.com/DanielHZhang/zutto)
 - [Example App Project](https://github.com/solidjs/solidhack-submissions)
 - [Encrypted Todos](https://github.com/Nojus0/encrypted-todo-list)
 - [Lasolsido](https://github.com/eguneys/solsido)
