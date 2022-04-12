@@ -66,6 +66,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 - [Solid Proxies](https://github.com/Exelord/solid-proxies)
 - [Solid Services](https://github.com/exelord/solid-services)
 - [Solid Command Palette](https://github.com/itaditya/solid-command-palette)
+- [Solid Select](https://github.com/thisbeyond/solid-select)
 
 ### Best Student Project Award
 
