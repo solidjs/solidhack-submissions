@@ -31,7 +31,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 - [solid-a11y](https://github.com/dairyisscary/solid-a11y)
 - [SolidJS plugin for Preview.js](https://github.com/fwouts/previewjs-solid-plugin)
 - [Solid UI](https://github.com/pheggeseth/solid-ui)
-- [`classy-solid`](https://github.com/lume/classy-solid)
+- [classy-solid](https://github.com/lume/classy-solid)
 - [Rad](https://github.com/solidsnail/rad)
 - [Solar Forms](https://github.com/kajetansw/solar-forms)
 - [Solid Proxies](https://github.com/Exelord/solid-proxies)
