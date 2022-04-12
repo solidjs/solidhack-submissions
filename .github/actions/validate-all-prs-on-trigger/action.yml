@@ -1,0 +1,12 @@
+name: 'validate-all-prs-on-trigger'
+description: 'Validate all PRs on trigger'
+author: 'Oren Elbaum'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub token'
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'index.js'
