@@ -6,6 +6,10 @@ Welcome to **SolidHack**! The following is a list of projects accepted into Soli
 
 Before submitting your project be sure to read the [Rules and Regulations](https://hack.solidjs.com/rules) as well as the complete instructions for [preparing your repository for submissions](https://hack.solidjs.com/submit). For additional information, check [hack.solidjs.com](https://hack.solidjs.com) and join our [Discord](https://discord.com/invite/solidjs's) #solidhack channel. If you have trouble submitting, please reach out over Discord!
 
+## 2022 Competition Closed
+
+Thank you to everyone who participated. Winners for SolidHack 2022 are listed below. Thank you to all our participants, contestants, sponsors and voters for a fantastic season.
+
 ## Submission Process
 
 When you're ready to submit your project, [fork this repository and add](https://github.com/solidjs/solidhack-submissions/edit/main/README.md) your submission to one of the category lists in this README file below. **The addition to the list must be a link to the project's GitHub repository**. Then, submit a pull request back to this repostiory. PRs will be merged once projects have been verified for meeting the submission rules and eligibility criteria. If there are issues with your project, a SolidHack team member will notify you as soon as possible.
@@ -23,7 +27,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 - [MDB](https://github.com/AlidotSal/MDB)
 - [Solid Data Grid](https://github.com/esveo/solid-data-grid-demo)
 - [first-person-shooter](https://github.com/LUMECraft/first-person-shooter)
-- [CodeImage](https://github.com/riccardoperra/codeimage)
+- [CodeImage](https://github.com/riccardoperra/codeimage) - Winner!
 - [rehash.one](https://github.com/TheKatze/rehash)
 - [Encrypted Todos](https://github.com/Nojus0/encrypted-todo-list)
 - [Lasolsido](https://github.com/eguneys/solsido)
@@ -49,7 +53,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 - [Solid Reactor](https://github.com/yellowsink/solid-reactor)
 - [solid-map-gl](https://github.com/GIShub4/solid-map-gl)
 - [Compendium DevTools](https://github.com/CompendiumDevTools/library)
-- [Hope UI](https://github.com/fabien-ml/hope-ui)
+- [Hope UI](https://github.com/fabien-ml/hope-ui) - Winner!
 - [solid-boundaries](https://github.com/everweij/solid-boundaries)
 - [RevKit UI](https://github.com/specialdoom/solid-rev-kit)
 - [solid-cached-resource](https://github.com/yonathan06/solid-cached-resource)
@@ -71,7 +75,7 @@ After being accepted, your entry will be listed on the SolidHack website. Submis
 ### Best Student Project Award
 
 - [Sailwind](https://github.com/lawrencecchen/sailwind)
-- [Solid Table](https://github.com/mokshit06/solid-table)
+- [Solid Table](https://github.com/mokshit06/solid-table) - Winner!
 - [Blitz](https://github.com/dimensionhq/blitz)
 - [Hydrogen - Social media web app powered by SolidJS](https://github.com/harshmangalam/hydrogen-solidjs-client)
 - [Bloki app](https://github.com/MrFoxPro/bloki)
